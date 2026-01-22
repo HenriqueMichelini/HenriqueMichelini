@@ -76,9 +76,9 @@ Check out my pinned repositories below for:
 
 ## 🏆 Certifications
 
-- **Oracle Cloud Infrastructure 2025 Certified Architect Associate**
-- **Oracle Cloud Infrastructure 2025 Certified Foundations Associate**
-- **EF SET English Certificate - C1 Advanced (68/100)**
+- **[Oracle Cloud Infrastructure 2025 Certified Architect Associate](https://catalog-education.oracle.com/ords/certview/sharebadge?id=63C84FDB360CB6E4FD7316AFFEDD21477E8FAE97E3B329A91BCF506EDE32D65E)**
+- **[Oracle Cloud Infrastructure 2025 Certified Foundations Associate](https://catalog-education.oracle.com/ords/certview/sharebadge?id=93530C2716EA1F34292B37ED4DCA867460503A15F765B3B2D35D933507DECE41)**
+- **[EF SET English Certificate - C1 Advanced (68/100)](https://cert.efset.org/pt/WyGw8L)**
 
 ## 📫 Let's Connect
 
