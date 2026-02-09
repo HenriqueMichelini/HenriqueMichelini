@@ -1,6 +1,6 @@
 # Hi there, I'm Henrique Michelini 👋
 
-**Junior Software Developer** specializing in Java Spring Boot, TypeScript, React, and Oracle Cloud Infrastructure
+**Junior Software Developer** specializing in Java Spring Boot, TypeScript, React, PostgreSQL and Oracle Cloud Infrastructure
 
 📍 São Paulo, Brazil | 🎓 Information Systems Graduate | ☁️ OCI Certified Architect Associate
 
