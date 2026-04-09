@@ -1,7 +1,7 @@
 <table>
   <tr>
     <td width="360">
-      <img src="cover.jpg" width="360" alt="Henrique Michelini">
+      <img src="image.JPEG" width="360" alt="Henrique Michelini">
     </td>
     <td valign="top">
       <h1>Henrique Michelini</h1>
