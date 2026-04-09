@@ -2,7 +2,7 @@
   <tr>
     <td width="400" height="100%" style="overflow: hidden;">
       <img
-        src="image.JPEG"
+        src="image_2_cropped.JPEG"
         alt="Henrique Michelini"
         style="width: 400px; height: 1000px; object-fit: cover; display: block;"
       >
