@@ -1,8 +1,9 @@
 <table>
   <tr>
-    <td width="360" valign="top">
-      <img src="image.JPEG" width="360" alt="Henrique Michelini">
-      <br>
+    <td width="360">
+      <img src="cover.jpg" width="360" alt="Henrique Michelini">
+    </td>
+    <td valign="top">
       <h1>Henrique Michelini</h1>
       <p>Full-stack developer with a focus on backend systems, cloud infrastructure, and embedded Linux environments. Work spans from automated test suites for payment devices deployed internationally to distributed cloud-native platforms. Strong interest in clean architecture, data privacy compliance, and bridging software engineering with real-world constraints.</p>
       <h2>Areas of Interest</h2>
