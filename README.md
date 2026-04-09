@@ -1,10 +1,10 @@
 <table>
   <tr>
-    <td width="500" height="100%" style="overflow: hidden;">
+    <td width="422" height="100%" style="overflow: hidden;">
       <img
         src="cover.jpeg"
         alt="Henrique Michelini"
-        style="width: 500px; height: 1315px; object-fit: cover; display: block;"
+        style="width: 395px; height: 1315px; object-fit: cover; display: block;"
       >
     </td>
     <td valign="top">
