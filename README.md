@@ -1,7 +1,11 @@
 <table>
   <tr>
-    <td width="360">
-      <img src="image.JPEG" width="360" alt="Henrique Michelini">
+    <td width="400" height="100%" style="overflow: hidden;">
+      <img
+        src="image.JPEG"
+        alt="Henrique Michelini"
+        style="width: 400px; height: 1000px; object-fit: cover; display: block;"
+      >
     </td>
     <td valign="top">
       <h1>Henrique Michelini</h1>
