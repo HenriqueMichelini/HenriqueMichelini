@@ -4,7 +4,7 @@
       <img
         src="cover.jpeg"
         alt="Henrique Michelini"
-        style="width: 400px; height: 1000px; object-fit: cover; display: block;"
+        style="width: 400px; height: 1315px; object-fit: cover; display: block;"
       >
     </td>
     <td valign="top">
