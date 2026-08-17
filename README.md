@@ -25,6 +25,10 @@ Recent frontend work also includes **Astro** and **Tailwind CSS**, but they are 
 
 ## Selected projects
 
+### Vencce
+
+Currently building **Vencce**, a software service focused on helping small businesses replace repetitive manual work and fragmented operational processes with custom software. The product work spans backend engineering, frontend delivery, deployment, security, and operational readiness; the implementation repositories are private, so technical details are intentionally kept at a high level here.
+
 ### [Craftalism](https://github.com/HenriqueMichelini/craftalism)
 
 A multi-repository Minecraft economy platform spanning Spring Boot services, an OAuth2 authorization server, a React/TypeScript dashboard, Paper plugins, Docker-based deployment, and Terraform-managed AWS infrastructure. My 2026 work includes transactional market and balance flows, service authorization, cross-repository contracts, deployment hardening, and infrastructure safeguards.
