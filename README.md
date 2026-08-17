@@ -1,54 +1,47 @@
-<table>
-  <tr>
-    <td width="422" height="100%" style="overflow: hidden;">
-      <img
-        src="cover.jpeg"
-        alt="Henrique Michelini"
-        style="width: 395px; height: 1315px; object-fit: cover; display: block;"
-      >
-    </td>
-    <td valign="top">
-      <h1>Henrique Michelini</h1>
-      <p>
-        Software engineer focused on backend systems and distributed architectures.
-        I build and operate systems with an emphasis on reliability, clear contracts, and predictable behavior under failure.
-        <br><br>
-        Experience ranges from embedded payment systems in production environments to cloud-native services, working across
-        the full lifecycle — design, implementation, testing, and operational validation.
-        <br><br>
-        Strong interest in system design, failure handling, and aligning engineering decisions with real-world constraints.
-      </p>
-      <h2>Core Focus</h2>
-      <ul>
-        <li>Designing backend systems with explicit contracts and well-defined boundaries</li>
-        <li>Distributed systems and event-driven architectures</li>
-        <li>Failure handling, idempotency, and consistency guarantees</li>
-        <li>CI/CD, quality gates, and operational safety</li>
-        <li>Data privacy and compliance (LGPD/GDPR)</li>
-      </ul>
-      <h2>Technologies</h2>
-      <ul>
-        <li><strong>Languages:</strong> Java, TypeScript, JavaScript, Python, Bash, PHP</li>
-        <li><strong>Backend:</strong> Spring Boot, Node.js, REST APIs, WebSockets, Kafka, RabbitMQ</li>
-        <li><strong>Frontend:</strong> React, Tailwind CSS</li>
-        <li><strong>Infrastructure:</strong> OCI, Docker, GitHub Actions, Linux</li>
-        <li><strong>Databases:</strong> PostgreSQL, MySQL, SQLite, Firebase</li>
-        <li><strong>Practices:</strong> Contract-driven design, Clean Architecture, SOLID, TDD</li>
-      </ul>
-      <h2>Selected Work</h2>
-      <ul>
-        <li>Designed backend services with explicit contract ownership and cross-repository consistency guarantees</li>
-        <li>Implemented idempotent transaction flows and failure-safe mechanisms in distributed environments</li>
-        <li>Established CI/CD pipelines with enforced quality gates for multi-service systems</li>
-        <li>Built automated test infrastructure for embedded payment devices operating in real-world conditions</li>
-        <li>Worked on systems where failure scenarios, not just success paths, drive design decisions</li>
-      </ul>
-      <h2>Contact</h2>
-      <ul>
-        <li>Email: <a href="mailto:henrique.g.michelini@gmail.com">henrique.g.michelini@gmail.com</a></li>
-        <li>LinkedIn: <a href="https://linkedin.com/in/henrique-giammellaro-michelini">henrique-giammellaro-michelini</a></li>
-        <li>Location: São Paulo, Brazil</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+# Henrique Michelini
+
+Software developer focused on **Java backend systems and end-to-end product engineering**. I primarily work with Spring Boot, PostgreSQL, and Docker, and build React/TypeScript frontends and cloud infrastructure when the system needs them.
+
+My recent work is increasingly centered on explicit domain boundaries, transactional correctness, authentication and authorization, testing, and operational safety. I also build **Minecraft/Paper plugins** and systems that integrate game servers with backend services.
+
+## Core stack
+
+- **Backend:** Java, Spring Boot, Spring Security, REST APIs, PostgreSQL
+- **Frontend:** TypeScript, React
+- **Build & delivery:** Gradle, Docker/Compose, GitHub Actions
+- **Infrastructure:** Linux, with practical AWS and Terraform experience
+- **Testing & quality:** JUnit, integration testing, Testcontainers, JaCoCo, SonarQube
+
+Recent frontend work also includes **Astro** and **Tailwind CSS**, but they are secondary to my Java/backend focus.
+
+## Engineering focus
+
+- Modular and domain-oriented application design with explicit boundaries
+- Transactional consistency, idempotency, lifecycle management, and failure handling
+- Authentication and authorization with session-based security and OAuth2/JWT flows
+- Database migrations, integration testing, CI quality gates, and dependency hygiene
+- Containerized deployment, observability, backup/restore, and release safety
+- Minecraft/Paper plugin architecture and backend integration
+
+## Selected projects
+
+### [Craftalism](https://github.com/HenriqueMichelini/craftalism)
+
+A multi-repository Minecraft economy platform spanning Spring Boot services, an OAuth2 authorization server, a React/TypeScript dashboard, Paper plugins, Docker-based deployment, and Terraform-managed AWS infrastructure. My 2026 work includes transactional market and balance flows, service authorization, cross-repository contracts, deployment hardening, and infrastructure safeguards.
+
+### [Dynamic Biomes](https://github.com/HenriqueMichelini/dynamic-biomes)
+
+A Java/Paper plugin exploring domain-oriented architecture for interconnected biome, crop, ore, and ecology mechanics. The project emphasizes explicit domain modeling, modular boundaries, automated tests, and a Dockerized Paper development environment.
+
+## Currently developing
+
+- Stronger modular-monolith and domain-driven design practices
+- Security and operational readiness for backend products
+- End-to-end product delivery across backend, frontend, deployment, and infrastructure
+- Structured AI-assisted engineering workflows without treating generated code as a substitute for review and verification
+
+## Contact
+
+- Email: [henrique.g.michelini@gmail.com](mailto:henrique.g.michelini@gmail.com)
+- LinkedIn: [henrique-giammellaro-michelini](https://linkedin.com/in/henrique-giammellaro-michelini)
+- São Paulo, Brazil
