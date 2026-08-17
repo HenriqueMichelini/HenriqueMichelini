@@ -9,10 +9,14 @@ My recent work is increasingly centered on explicit domain boundaries, transacti
 - **Backend:** Java, Spring Boot, Spring Security, REST APIs, PostgreSQL
 - **Frontend:** TypeScript, React
 - **Build & delivery:** Gradle, Docker/Compose, GitHub Actions
-- **Infrastructure:** Linux, with practical AWS and Terraform experience
+- **Infrastructure:** Linux, Oracle Cloud Infrastructure (OCI), with practical AWS and Terraform experience
 - **Testing & quality:** JUnit, integration testing, Testcontainers, JaCoCo, SonarQube
 
 Recent frontend work also includes **Astro** and **Tailwind CSS**, but they are secondary to my Java/backend focus.
+
+## Certification
+
+- **Oracle Cloud Infrastructure 2025 Certified Architect Associate**
 
 ## Engineering focus
 
