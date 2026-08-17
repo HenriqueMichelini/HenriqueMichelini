@@ -29,7 +29,7 @@ Recent frontend work also includes **Astro** and **Tailwind CSS**, but they are 
 
 ## Selected projects
 
-### Vencce
+### [Vencce](https://vencce.com)
 
 Currently building **Vencce**, a software service focused on helping small businesses replace repetitive manual work and fragmented operational processes with custom software. The product work spans backend engineering, frontend delivery, deployment, security, and operational readiness; the implementation repositories are private, so technical details are intentionally kept at a high level here.
 
