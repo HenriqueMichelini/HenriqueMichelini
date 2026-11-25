@@ -1,55 +1,42 @@
 # Henrique Michelini
 
-Software developer focused on **Java backend systems and end-to-end product engineering**. I primarily work with Spring Boot, PostgreSQL, and Docker, and build React/TypeScript frontends and cloud infrastructure when the system needs them.
+I’m a software developer in São Paulo, Brazil. I build backends with **Java, Spring Boot, and PostgreSQL**. I also work on the React interfaces and deployment infrastructure for those services, so I can follow a feature from a database transaction to the screen someone uses.
 
-My recent work is increasingly centered on explicit domain boundaries, transactional correctness, authentication and authorization, testing, and operational safety. I also build **Minecraft/Paper plugins** and systems that integrate game servers with backend services.
+I was selected for Agibank’s **Programa de Formação de Devs Nativos em IA**, a developer training program focused on AI. In my own projects, I give coding agents a scoped issue and acceptance criteria, then review the changes and test the behavior.
 
-## Core stack
+## What I’m building
 
-- **Backend:** Java, Spring Boot, Spring Security, REST APIs, PostgreSQL
-- **Frontend:** TypeScript, React
-- **Build & delivery:** Gradle, Docker/Compose, GitHub Actions
-- **Infrastructure:** Linux, Oracle Cloud Infrastructure (OCI), with practical AWS and Terraform experience
-- **Testing & quality:** JUnit, integration testing, Testcontainers, JaCoCo, SonarQube
+### [CareerOS](https://github.com/HenriqueMichelini/careeros)
 
-Recent frontend work also includes **Astro** and **Tailwind CSS**, but they are secondary to my Java/backend focus.
-
-## Certification
-
-- **Oracle Cloud Infrastructure 2025 Certified Architect Associate**
-
-## Engineering focus
-
-- Modular and domain-oriented application design with explicit boundaries
-- Transactional consistency, idempotency, lifecycle management, and failure handling
-- Authentication and authorization with session-based security and OAuth2/JWT flows
-- Database migrations, integration testing, CI quality gates, and dependency hygiene
-- Containerized deployment, observability, backup/restore, and release safety
-- Minecraft/Paper plugin architecture and backend integration
-
-## Selected projects
+CareerOS helps job seekers tailor a résumé and cover letter to a specific opening. An applicant saves their experience once, pastes a job posting, and reviews the drafts before exporting them. I’m building it with Go, React, and PostgreSQL. My next milestone is to test the MVP with job seekers and see which drafts they would actually send.
 
 ### [Vencce](https://vencce.com)
 
-Currently building **Vencce**, a software service focused on helping small businesses replace repetitive manual work and fragmented operational processes with custom software. The product work spans backend engineering, frontend delivery, deployment, security, and operational readiness; the implementation repositories are private, so technical details are intentionally kept at a high level here.
+I’m building Vencce to help small businesses replace repetitive manual work with custom software. I start with the day-to-day process. If someone has to copy the same information between two tools, connecting those tools may be all the software the business needs.
+
+## Selected Java projects
 
 ### [Craftalism](https://github.com/HenriqueMichelini/craftalism)
 
-A multi-repository Minecraft economy platform spanning Spring Boot services, an OAuth2 authorization server, a React/TypeScript dashboard, Paper plugins, Docker-based deployment, and Terraform-managed AWS infrastructure. My 2026 work includes transactional market and balance flows, service authorization, cross-repository contracts, deployment hardening, and infrastructure safeguards.
+A Minecraft economy where Paper plugins and a React dashboard share a Spring Boot API. When a player uses `/pay`, the API debits one balance, credits the other, and records the transfer in a single PostgreSQL transaction. Retrying the same request with the same idempotency key returns the original transfer.
 
 ### [Dynamic Biomes](https://github.com/HenriqueMichelini/dynamic-biomes)
 
-A Java/Paper plugin exploring domain-oriented architecture for interconnected biome, crop, ore, and ecology mechanics. The project emphasizes explicit domain modeling, modular boundaries, automated tests, and a Dockerized Paper development environment.
+A Paper plugin where the same crop can grow differently depending on the season, biome, and soil fertility. I keep the growth rules in plain Java so I can test how a crop responds to different conditions without starting a Minecraft server. [Crop implementation](https://github.com/HenriqueMichelini/dynamic-biomes/tree/main/java/app/src/main/java/io/github/henriquemichelini/dynamicbiomes/crops)
 
-## Currently developing
+### [Minecraft Lab Experiments](https://github.com/HenriqueMichelini/minecraft-lab-experiments)
 
-- Stronger modular-monolith and domain-driven design practices
-- Security and operational readiness for backend products
-- End-to-end product delivery across backend, frontend, deployment, and infrastructure
-- Structured AI-assisted engineering workflows without treating generated code as a substitute for review and verification
+I benchmark how Java code scans Minecraft terrain for ore. In one benchmark where all 4,096 blocks in a section matched, storing their positions in a `short[]` cut allocation from about **247 KB to 8.2 KB per scan** compared with creating an object for each match.
+
+## Tools I use
+
+- **Backend** · Java, Spring Boot, Spring Security, PostgreSQL
+- **Frontend** · React, TypeScript, Astro, Tailwind CSS
+- **Build and test** · Gradle (Kotlin DSL), JUnit, Testcontainers, JaCoCo, SonarQube, GitHub Actions
+- **Infrastructure** · Linux, Docker Compose, Oracle Cloud Infrastructure (OCI), AWS, Terraform
+
+**Certification** · Oracle Cloud Infrastructure 2025 Certified Architect Associate
 
 ## Contact
 
-- Email: [henrique.g.michelini@gmail.com](mailto:henrique.g.michelini@gmail.com)
-- LinkedIn: [henrique-giammellaro-michelini](https://linkedin.com/in/henrique-giammellaro-michelini)
-- São Paulo, Brazil
+[Email](mailto:henrique.g.michelini@gmail.com) · [LinkedIn](https://linkedin.com/in/henrique-giammellaro-michelini)
